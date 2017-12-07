@@ -1,0 +1,33 @@
+{
+  "name": "force-scripts-pug",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marzk/force-scripts-pug.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marzk/force-scripts-pug/issues"
+  },
+  "homepage": "https://github.com/marzk/force-scripts-pug#readme",
+  "devDependencies": {
+    "typescript": "^2.6.2"
+  },
+  "peerDependencies": {
+    "koa": "^2.0.0",
+    "force-scripts": "^0.0.1 || ^1.0.0"
+  },
+  "dependencies": {
+    "@types/koa": "^2.0.42",
+    "@types/pug": "^2.0.4",
+    "pug": "^2.0.0-rc.4"
+  },
+  "files": ["dist", "force-scripts.d.ts"]
+}
